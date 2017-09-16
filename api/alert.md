@@ -6,7 +6,7 @@
 GET
 
 ##接口地址
-/api/topology.json
+/api/alert.json
 
 ##接口入参
 | **参数** | **格式** | **示例** | 
