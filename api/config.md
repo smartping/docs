@@ -5,7 +5,7 @@
 {
 	"Ver": "0.3.0",                             #当前Smartping版本                
 	"Port": 8890,                               #Smartping服务端口号
-	"Name": "DESKTOP-EM9L0D5",                  #本机名称
+	"Name": "ToryzenPC",                        #本机名称
 	"Ip": "127.0.0.1",                          #本机IP
 	"Db": "D:/smartping/db/database.db",        #Sqlite数据库路径
 	"Password": "",                             #密码（此处将显示为空）
