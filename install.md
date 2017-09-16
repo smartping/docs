@@ -17,6 +17,8 @@
 * * **Linux:** ./control start 
 * * **Windows:** control.cmd start
 
+** 管理界面默认密码为:smartping,若需要修改密码请修改conf/config.json或conf/config-base.json与 **
+
 ## 源码安装
 
 ### 基本依赖
@@ -43,5 +45,6 @@
 * * **Linux:** ./control start 
 * * **Windows:** control.cmd start
 
+** 管理界面默认密码为:smartping,若需要修改密码请修改conf/config.json或conf/config-base.json与 **
 
 
