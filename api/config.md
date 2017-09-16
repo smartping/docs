@@ -18,7 +18,7 @@
 	"Thdloss": 30,                              #报警规则-丢包率（百分比）
 	"Tline": "1",                               #拓扑页面-互PING点连接线粗细
 	"Tsymbolsize": "70",                        #拓扑页面-互PING点图大小
-	"Topotimeout": "5",                         #Ajax请求超时时间
+	"Timeout": "5",                             #Ajax请求超时时间
 	"Targets": [                             #目标机器列表
 		{
 		 	"Name": "本机",          #目标机器名称
