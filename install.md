@@ -4,8 +4,8 @@
 
 ### 选择相应OS的二进制包
 
-* Linuxx64： [Github](https://github.com/gy-games/smartping/releases/download/v0.3.0/smartping_v0.3.0.tar.gz) [百度云](https://pan.baidu.com/s/1pKEoUdt)
-* Windowsx64：[Github](https://github.com/gy-games/smartping/releases/download/v0.3.0/smartping_v0.3.0.zip) [百度云](https://pan.baidu.com/s/1nvokU9r)
+* Linux： [Github](https://github.com/gy-games/smartping/releases/download/v0.3.0/smartping_v0.3.0.tar.gz) [百度云](https://pan.baidu.com/s/1pKEoUdt)
+* Windows：[Github](https://github.com/gy-games/smartping/releases/download/v0.3.0/smartping_v0.3.0.zip) [百度云](https://pan.baidu.com/s/1nvokU9r)
 
 All Release：[Github](https://github.com/gy-games/smartping/releases) [百度云](https://pan.baidu.com/s/1dFnflq5)
 
