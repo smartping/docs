@@ -8,6 +8,5 @@
   * [ping](api/ping.md)
   * [topology](api/topology.md)
   * [alert](api/alert.md)
-  * [saveconfig](api/saveconfig.md)
 * [设计思路](arch.md)
 
