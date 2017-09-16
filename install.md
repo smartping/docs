@@ -17,7 +17,7 @@
 * * **Linux:** ./control start 
 * * **Windows:** control.cmd start
 
-** SmartPing默认WEB服务端口为8899，管理界面默认密码为:smartping,若需要修改密码请修改conf/config.json或conf/config-base.json与 **
+** SmartPing默认WEB服务端口为8899，管理界面默认密码为:smartping,若需要修改请修改conf/config.json或conf/config-base.json **
 
 ## 源码安装
 
@@ -46,5 +46,5 @@
 * * **Windows:** control.cmd start
 
 
-** SmartPing默认WEB服务端口为8899，管理界面默认密码为:smartping,若需要修改密码请修改conf/config.json或conf/config-base.json与 **
+** SmartPing默认WEB服务端口为8899，管理界面默认密码为:smartping,若需要修改请修改conf/config.json或conf/config-base.json **
 
