@@ -9,4 +9,6 @@
   * [topology](api/topology.md)
   * [alert](api/alert.md)
 * [设计思路](arch.md)
+  * [去中心化](arch/decentralized.md)
+  * [数据结构](arch/shu-ju-jie-gou.md)
 
