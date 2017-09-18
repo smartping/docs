@@ -3,7 +3,7 @@
 * [介绍](README.md)
 * [下载安装](install.md)
   * [脚本参数](install/control.md)
-  * [配置说明](install/pei-zhi-shuo-ming.md)
+  * [配置说明](install/config.md)
 * [API文档](api.md)
   * [config](api/config.md)
   * [ping](api/ping.md)
