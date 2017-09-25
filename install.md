@@ -15,7 +15,7 @@ All Release：[Github](https://github.com/gy-games/smartping/releases) [百度�
 * 使用命令\(Windows使用CMD\) cd 进入到刚刚创建的目录。
 * 执行命令 
 * * **Linux:** ./control start 
-* * **Windows:** control.cmd start
+* * **Windows:** 双击 control.cmd
 
 ** SmartPing默认WEB服务端口为8899，管理界面默认密码为:smartping,若需要修改请修改conf/config.json或conf/config-base.json **
 
