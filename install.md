@@ -2,10 +2,10 @@
 
 ## 二进制安装
 
-### 选择相应OS的二进制包（最新版本v0.3.1）
+### 选择相应OS的二进制包（最新版本v0.4.1）
 
-* Linux： [Github](https://github.com/gy-games/smartping/releases/download/v0.4.0/smartping-v0.4.0.tar.gz) [百度云](https://pan.baidu.com/s/1crV8gI)
-* Windows：[Github](https://github.com/gy-games/smartping/releases/download/v0.4.0/smartping-v0.4.0.zip) [百度云](https://pan.baidu.com/s/1kUDHErP)
+* Linux： [Github](https://github.com/gy-games/smartping/releases/download/v0.4.1/smartping-v0.4.1.tar.gz) [百度云](https://pan.baidu.com/s/1o83c1w2)
+* Windows：[Github](https://github.com/gy-games/smartping/releases/download/v0.4.1/smartping-v0.4.1.zip) [百度云](https://pan.baidu.com/s/1slodrKL)
 
 All Release：[Github](https://github.com/gy-games/smartping/releases) [百度云](https://pan.baidu.com/s/1dFnflq5)
 
