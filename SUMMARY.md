@@ -12,4 +12,5 @@
 * [设计思路](arch.md)
   * [去中心化](arch/decentralized.md)
   * [数据结构](arch/data.md)
+* [更新记录](geng-xin-ji-lu.md)
 
