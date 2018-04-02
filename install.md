@@ -2,7 +2,7 @@
 
 ## 二进制安装
 
-### 选择相应OS的二进制包（最新版本v0.4.1）
+### 选择相应OS的二进制包（最新版本v0.5.0）
 
 * Linux： [Github](https://github.com/gy-games/smartping/releases/download/v0.4.1/smartping-v0.4.1.tar.gz) [百度云](https://pan.baidu.com/s/1o83c1w2)
 * Windows：[Github](https://github.com/gy-games/smartping/releases/download/v0.4.1/smartping-v0.4.1.zip) [百度云](https://pan.baidu.com/s/1slodrKL)
@@ -44,7 +44,6 @@ All Release：[Github](https://github.com/gy-games/smartping/releases) [百度�
 
 * * **Linux:** ./control start 
 * * **Windows:** control.cmd start
-
 
 ** SmartPing默认WEB服务端口为8899，管理界面默认密码为:smartping,若需要修改请修改conf/config.json或conf/config-base.json **
 
