@@ -1,14 +1,22 @@
-#更新记录
+# 更新记录
 
-- **2017.09.26 SMARTPING v0.4.1 RELEASE**
+* **2018.04.02 SMARTPING v0.5.0 RELEASE**
+
+```
+- 增加traceroute功能，当报警时进行Traceroute检测
+- 去除sysping功能，仅保留goping，并重写goping
+- 正向Ping/反向Ping页面增加定时刷新功能
+- 轻微修改配置面板显示
+- 代码优化与重构
+```
+
+* **2017.09.26 SMARTPING v0.4.1 RELEASE**
 
 ```
 - 修订拓扑图自身节点显示红线BUG
 ```
 
-
-
-- **2017.09.15 SMARTPING v0.4.0 RELEASE**
+* **2017.09.15 SMARTPING v0.4.0 RELEASE**
 
 ```
 - 增加日志支持[基于seelog]
@@ -20,7 +28,7 @@
 - 修订部分数据类型
 ```
 
-- **2017.09.16 SMARTPING v0.3.1 RELEASE**
+* **2017.09.16 SMARTPING v0.3.1 RELEASE**
 
 ```
 - 修订计算算法，每3s发送一个ping包,每分钟发送20个，计算其最高,最低,平均延迟、丢包率。
@@ -28,8 +36,7 @@
 - 修复拓扑节点自动刷新失效问题
 ```
 
-
-- **2017.09.16 SMARTPING v0.3.0 RELEASE**
+* **2017.09.16 SMARTPING v0.3.0 RELEASE**
 
 ```
 - 全新的Dashbord设计，支持报警数据存储，配置WEB管理
@@ -39,15 +46,17 @@
 - 项目官网上线smartping.org，文档上线docs.smartping.org
 ```
 
-- **2017.09.12 SMARTPING v0.2.5 RELEASE**
+* **2017.09.12 SMARTPING v0.2.5 RELEASE**
+
+```
+ -
+```
+
+* **2017.07.17 SMARTPING v0.2.4 RELEASE**
 
 ```
  -
 ```
 
 
-- **2017.07.17 SMARTPING v0.2.4 RELEASE**
 
-```
- -
-```
