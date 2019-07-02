@@ -19,13 +19,13 @@ SmartPing是一个综合性网络质量\(PING\)检测工具，支持正/反向PI
 
 ## 功能截图
 
-正向Ping ![](.gitbook/assets/index.png)
+正/反向Ping![](/assets/index.jpg)
 
-反向Ping ![](.gitbook/assets/reverse.png)
+Ping拓扑及报警![](/assets/topology.jpg)![](/assets/alert.jpg)延迟地图![](/assets/map.jpg)
 
-互Ping拓扑 ![](.gitbook/assets/topology.png)
+检测工具![](/assets/tools.jpg)
 
-报警 ![](.gitbook/assets/alert.png)
+系统配置![](/assets/config.jpg)
 
-配置 ![](.gitbook/assets/config.png)
+
 
