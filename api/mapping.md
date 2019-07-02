@@ -8,7 +8,7 @@ GET
 
 ## 接口地址
 
-/api/alert.json
+/api/mapping.json
 
 ## 接口入参
 

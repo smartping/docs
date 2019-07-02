@@ -8,4 +8,8 @@ SmartPing所有的数据均可以通过各点的程序通过HTTP方式获取（S
 | [PING目标机器数据](ping.md) | GET | /api/ping.json | 获取当前节点对外的PING数据 |
 | [PING目标机器状态](topology.md) | GET | /api/topology.json | 获取当前节点PING外部的状态数据（用于拓扑） |
 | [PING目标机器报警数据](alert.md) | GET | /api/alert.json | 获取当前的报警数据 |
+| [PING全国延迟](/api/mapping.md) | GET | /api/mapping.json | 获取当前机器全国延迟数据 |
+| [PING工具](/api/tools.md) | GET | /api/tools.json | 测试目标机器获取数据 |
+
+
 
