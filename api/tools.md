@@ -8,7 +8,7 @@ GET
 
 ## 接口地址
 
-/api/alert.json
+/api/tools.json
 
 ## 接口入参
 
@@ -20,17 +20,17 @@ GET
 
 ```text
 {
-	"status": "true",
-	"error": "",
-	"ip": "127.0.0.1",
-	"ping": {
-		"SendPk": 5,
-		"RevcPk": 5,
-		"LossPk": 0,
-		"MinDelay": 0,
-		"AvgDelay": 0.59982,
-		"MaxDelay": 0.9997
-	}
+    "status": "true",
+    "error": "",
+    "ip": "127.0.0.1",
+    "ping": {
+        "SendPk": 5,
+        "RevcPk": 5,
+        "LossPk": 0,
+        "MinDelay": 0,
+        "AvgDelay": 0.59982,
+        "MaxDelay": 0.9997
+    }
 }
 ```
 
