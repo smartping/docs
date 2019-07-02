@@ -1,10 +1,12 @@
-#脚本参数
-smartping采用脚本调用方式运行，Linux使用 ./control , Windows使用 control.cmd 
+# 脚本参数
 
-##Linux
-** ./control**
+smartping采用脚本调用方式运行，Linux使用 ./control , Windows使用 control.cmd
 
-```
+## Linux
+
+ **./control**
+
+```text
 build|run|start|stop|restart|status
 
 build   : 源码编译，最终构建成至 bin
@@ -17,10 +19,11 @@ version : 查看当前smartping版本
 pack    : 执行Build并进行二进制包制作
 ```
 
-##Windows
-** control.cmd **
+## Windows
 
-```
+ **control.cmd** 
+
+```text
 build|run|install|start|stop|restart|version
 
 build   : 源码编译，最终构建成至 bin
