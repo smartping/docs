@@ -1,5 +1,16 @@
 # 更新记录
 
+* **2019.07.02 SMARTPING v0.8.0 RELEASE**
+
+```
+- 报警记录挪至Ping拓扑节点，并将traceroute功能变更为mtr
+- 增加全国延迟功能
+- 增加检测工具功能
+- 增加云端模式
+- Ping图由JS画图切换为由golang生成图片
+
+```
+
 * **2018.04.02 SMARTPING v0.5.0 RELEASE**
 
 ```text
@@ -57,4 +68,6 @@
 ```text
  -
 ```
+
+
 
