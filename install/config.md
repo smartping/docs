@@ -4,14 +4,23 @@ SmartPing从0.3.0版本开始，配置可以使用WEB界面修改。
 
 ## 配置修改节点
 
-![](../.gitbook/assets/changeconfig.png)
+![](/assets/intro/config-intro1.jpg)配置修改节点分为4个大部分
 
-* 目标类型只支持 C 或 CS ， C即为Client模式，目标节点只接收PING数据包，CS模式即Client&Server模式，目标节点既接收PING数据包同时也发送PING数据包。
-* 报警规则为每分钟进行一次检测，若在**检测时间范围\(Check Period\)**内出现**发生次数\(Occur Times\)**以上，丢包率高于**丢包率\(Loss Percent\)**或延迟高于**平均延迟\(Average Delay\)**则报警,默认报警保存 **存档天数\(Archive Days\)** 日。
-* 进行修改后，左上角输入密码即可生效（默认密码为smartping）
+1. 保存配置，对于2，3，4上的操作修改完后均为暂存，需要在此输入密码后保存才可生效
+2. 基础配置，分为基础、Ping拓扑、邮件报警、检测工具、授权管理几个大功能
+   1. 基础
+      1. 接口超时\(秒\)：本节点访问其他节点的Ajax超时时间
+      2. 页面刷新\(分钟\)：页面的定时刷新时间（暂时只用在了Ping拓扑上，设计是除配置外所有页面，有需要可以在源码上修改一下）
+      3. 数据存数（天）：正向Ping、拓扑报警、全国延迟的存档天数
+   2. Ping拓扑
+      1. 报警声音：触发报警规则时的报警声音
+      2. 连线粗细：Ping拓扑的连线粗细
+      3. 形状大小：Ping拓扑的形状大小
 
 ## 备注
 
 * 首次运行SmartPing时，SmartPing默认优先读取conf/config.json文件，若无此文件，则读取conf/config-base.json文件
 * 若需要修改密码，需要手工修改conf/config.json或conf/config-base.json文件中的password字段，并重启SmartPing
+
+
 
