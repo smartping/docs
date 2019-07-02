@@ -4,10 +4,10 @@
 
 ### 选择相应OS的二进制包（最新版本v0.5.0）
 
-* Linux： [Github](https://github.com/gy-games/smartping/releases/download/v0.5.0/smartping-v0.5.0.tar.gz) [百度云](https://pan.baidu.com/s/1e9du1AFTd94XGsAw8m44dA)
-* Windows：[Github](https://github.com/gy-games/smartping/releases/download/v0.5.0/smartping-v0.5.0.zip) [百度云](https://pan.baidu.com/s/1nULMwldjgZRaJqBfPPg7gQ)
+* Linux： [Github](https://github.com/smartping/smartping/releases/download/v0.8.0/smartping-v0.8.0.tar.gz) [百度云](https://pan.baidu.com/s/1VeBV9498NKqFfTdq6xIYhA)\(提取码:gbcg\)
+* Windows：[Github](https://github.com/smartping/smartping/releases/download/v0.8.0/smartping-v0.8.0.zip) [百度云](https://pan.baidu.com/s/1VeBV9498NKqFfTdq6xIYhA)\(提取码:gbcg\)
 
-All Release：[Github](https://github.com/gy-games/smartping/releases) [百度云](https://pan.baidu.com/s/1dFnflq5)
+All Release：[Github](https://github.com/gy-games/smartping/releases) [百度云](https://pan.baidu.com/s/1VeBV9498NKqFfTdq6xIYhA)\(提取码:gbcg\)
 
 ### 解压并运行程序
 
@@ -17,7 +17,7 @@ All Release：[Github](https://github.com/gy-games/smartping/releases) [百度�
 * * **Linux:** ./control start 
 * * **Windows:** 双击 control.cmd
 
- **SmartPing默认WEB服务端口为8899，管理界面默认密码为:smartping,若需要修改请修改conf/config.json或conf/config-base.json** 
+  **SmartPing默认WEB服务端口为8899，管理界面默认密码为:smartping,若需要修改请修改conf/config.json或conf/config-base.json**
 
 ## 源码安装
 
@@ -45,5 +45,7 @@ All Release：[Github](https://github.com/gy-games/smartping/releases) [百度�
 * * **Linux:** ./control start 
 * * **Windows:** control.cmd start
 
- **SmartPing默认WEB服务端口为8899，管理界面默认密码为:smartping,若需要修改请修改conf/config.json或conf/config-base.json** 
+  **SmartPing默认WEB服务端口为8899，管理界面默认密码为:smartping,若需要修改请修改conf/config.json或conf/config-base.json**
+
+
 
