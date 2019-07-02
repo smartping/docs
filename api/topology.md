@@ -18,12 +18,13 @@ GET
 
 ```text
 {
-    "114DNS": "true",
-    "NOPING": "false",
-    "本机": "true",
-    "百度": "true"
+	"1.2.3.4": "false",
+	"114.114.114.114": "true",
+	"123.125.114.144": "true",
+	"69.171.229.28": "false",
+	"8.8.4.4": "false"
 }
 ```
 
-目标节点名称-&gt;状态\(treu,false\)
+目标节点IP-&gt;状态\(treu,false\)
 

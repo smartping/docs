@@ -21,23 +21,25 @@ GET
 ```text
 [
     [
-        "alertlog-20170915",                    #报警日期列表
-        "alertlog-20170916"
+        "2017-09-15",                    #报警日期列表
+        "2017-09-16"
     ],
     [
         {
             "Logtime": "2017-09-16 15:22",      #报警时间
-            "Fromname": "DESKTOP-EM9L0D5",      #来源名称
-            "Toname": "114DNS",                 #目标名称
-            "Tracert": "..."                    #Traceroute信息
+            "Targetip": "127.0.0.1",      #来源名称
+            "Targetname": "114DNS",                 #目标名称
+            "Tracert": "..."                    #MTR信息
         },
         {
             "Logtime": "2017-09-16 15:22",
-            "Fromname": "DESKTOP-EM9L0D5",
-            "Toname": "NOPING",
+            "Targetip": "127.0.0.2",
+            "Targetname": "NOPING",
             "Tracert": "..."
         }
     ]
 ]
 ```
+
+
 

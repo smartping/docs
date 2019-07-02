@@ -18,60 +18,212 @@ GET
 
 ```text
 {
-    "Ver": "0.3.0",                             #当前Smartping版本                
-    "Port": 8890,                               #Smartping服务端口号
-    "Name": "ToryzenPC",                        #本机名称
-    "Ip": "127.0.0.1",                          #本机IP
-    "Db": "D:/smartping/db/database.db",        #Sqlite数据库路径
-    "Password": "",                             #密码（此处将显示为空）
-    "Alerthistory": 7,                          #报警数据存储周期（天）
-    "Alertcycle": 1,                            #刷新时间（分钟）
-    "Alertsound": "/alert.mp3",                 #拓扑页面-报警声音
-    "Thdchecksec": 900,                         #报警规则-监测时间范围（秒）
-    "Thdoccnum": 3,                             #报警规则-在监控时间范围内出现的异常点数（个）
-    "Thdavgdelay": 200,                         #报警规则-平均延迟（毫秒）
-    "Thdloss": 30,                              #报警规则-丢包率（百分比）
-    "Tline": "1",                               #拓扑页面-互PING点连接线粗细
-    "Tsymbolsize": "70",                        #拓扑页面-互PING点图大小
-    "Timeout": "5",                             #Ajax请求超时时间
-    "Targets": [                             #目标机器列表
-        {
-             "Name": "本机",          #目标机器名称
-            "Addr": "127.0.0.1",     #目标机器IP
-            "Type": "CS",            #模式（CS:互PING,C:正向PING）  
-            "Thdchecksec": 900,      #特殊报警规则-监测时间范围（秒）
-            "Thdoccnum": 3,          #特殊报警规则-在监控时间范围内出现的异常点数（个）
-            "Thdavgdelay": 200,      #特殊报警规则-平均延迟（毫秒）
-            "Thdloss": 30            #特殊报警规则-丢包率（百分比）
-        },
-        {
-            "Name": "NOPING",        #同上
-            "Addr": "93.46.8.89",
-            "Type": "C",
-            "Thdchecksec": 900,
-            "Thdoccnum": 3,
-            "Thdavgdelay": 200,
-            "Thdloss": 30
-        },
-        {
-            "Name": "百度",
-            "Addr": "220.181.57.217",
-            "Type": "CS",
-            "Thdchecksec": 900,
-            "Thdoccnum": 3,
-            "Thdavgdelay": 200,
-            "Thdloss": 30
-        },
-        {
-            "Name": "114DNS",
-            "Addr": "114.114.114.114",
-            "Type": "CS",
-            "Thdchecksec": 30,
-            "Thdoccnum": 3,
-            "Thdavgdelay": 200,
-            "Thdloss": 50
-        }
-    ]
+	"Ver": "0.8.0",
+	"Port": 8899,
+	"Name": "本机",
+	"Addr": "127.0.0.1",
+	"Mode": {
+		"Endpoint": "",
+		"LastSuccTime": "",
+		"Status": "true",
+		"Type": "local"
+	},
+	"Base": {
+		"Archive": 10,
+		"Refresh": 1,
+		"Timeout": 5
+	},
+	"Topology": {
+		"Tline": "1",
+		"Tsound": "/alert.mp3",
+		"Tsymbolsize": "70"
+	},
+	"Alert": {
+		"EmailHost": "",
+		"RevcEmailList": "",
+		"SendEmailAccount": "",
+		"SendEmailPassword": ""
+	},
+	"Network": {
+		"1.2.3.4": {
+			"Name": "OtherSP",
+			"Addr": "1.2.3.4",
+			"Smartping": true,
+			"Ping": [
+				"114.114.114.114",
+				"127.0.0.1",
+				"8.8.4.4"
+			],
+			"Topology": [
+				{
+					"Addr": "127.0.0.1",
+					"Name": "本机",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "114.114.114.114",
+					"Name": "114DNS",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "8.8.4.4",
+					"Name": "GoogleDNS",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "1.2.3.4",
+					"Name": "OtherSP",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				}
+			]
+		},
+		"114.114.114.114": {
+			"Name": "114DNS",
+			"Addr": "114.114.114.114",
+			"Smartping": false,
+			"Ping": [],
+			"Topology": []
+		},
+		"123.125.114.144": {
+			"Name": "百度",
+			"Addr": "123.125.114.144",
+			"Smartping": false,
+			"Ping": [],
+			"Topology": []
+		},
+		"127.0.0.1": {
+			"Name": "本机",
+			"Addr": "127.0.0.1",
+			"Smartping": true,
+			"Ping": [
+				"1.2.3.4",
+				"114.114.114.114",
+				"123.125.114.144",
+				"127.0.0.1",
+				"69.171.229.28",
+				"8.8.4.4"
+			],
+			"Topology": [
+				{
+					"Addr": "1.2.3.4",
+					"Name": "OtherSP",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "114.114.114.114",
+					"Name": "114DNS",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "8.8.4.4",
+					"Name": "GoogleDNS",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "10",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "69.171.229.28",
+					"Name": "Facebook",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "123.125.114.144",
+					"Name": "百度",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				}
+			]
+		},
+		"69.171.229.28": {
+			"Name": "Facebook",
+			"Addr": "69.171.229.28",
+			"Smartping": false,
+			"Ping": [],
+			"Topology": []
+		},
+		"8.8.4.4": {
+			"Name": "GoogleDNS",
+			"Addr": "8.8.4.4",
+			"Smartping": false,
+			"Ping": [],
+			"Topology": []
+		}
+	},
+	"Chinamap": {
+		"上海": {
+			"cmcc": [
+				"117.184.42.114"
+			],
+			"ctcc": [
+				"180.163.15.160"
+			],
+			"cucc": [
+				"223.167.104.117"
+			]
+		},
+		"北京": {
+			"cmcc": [
+				"111.13.217.125"
+			],
+			"ctcc": [
+				"120.92.180.135"
+			],
+			"cucc": [
+				"111.207.189.5"
+			]
+		},
+		"广东": {
+			"cmcc": [
+				"120.236.14.140"
+			],
+			"ctcc": [
+				"218.17.216.171"
+			],
+			"cucc": [
+				"58.252.2.194"
+			]
+		},
+		"浙江": {
+			"cmcc": [
+				"183.246.69.139"
+			],
+			"ctcc": [
+				"115.236.169.86"
+			],
+			"cucc": [
+				"60.12.214.156"
+			]
+		}
+	},
+	"Toollimit": 0,
+	"Authiplist": "",
+	"Password": ""
 }
 ```
+
+
 
