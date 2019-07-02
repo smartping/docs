@@ -16,15 +16,16 @@ SmartPing是一个综合性网络质量\(PING\)检测工具，支持正/反向PI
 * [数据去中心化](https://docs.smartping.org/arch/decentralized.html)
 
 * [存储数据结构](https://docs.smartping.org/arch/data.html)
+
 * [集中配置管理\(云模式\)](https://docs.smartping.org/arch/cloud.html)
 
 ## 功能截图
 
-正/反向Ping![](/assets/index.jpg)
+正/反向Ping![](/assets/index.png)
 
-Ping拓扑及报警![](/assets/topology.jpg)![](/assets/alert.jpg)延迟地图![](/assets/map.jpg)
+Ping拓扑及报警![](/assets/topology.png)![](/assets/alert.png)延迟地图![](/assets/map.png)
 
-检测工具![](/assets/tools.jpg)
+检测工具![](/assets/tools.png)
 
-系统配置![](/assets/config.jpg)
+系统配置![](/assets/config.png)
 
