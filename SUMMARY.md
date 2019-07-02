@@ -1,4 +1,4 @@
-# Table of contents
+# Summary
 
 * [介绍](README.md)
 * [下载安装](install/README.md)
@@ -9,6 +9,8 @@
   * [ping](api/ping.md)
   * [topology](api/topology.md)
   * [alert](api/alert.md)
+  * [mapping](api/mapping.md)
+  * [tools](api/tools.md)
 * [设计思路](arch/README.md)
   * [去中心化](arch/decentralized.md)
   * [数据结构](arch/data.md)

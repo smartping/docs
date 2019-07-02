@@ -14,7 +14,7 @@ GET
 
 | **参数** | **格式** | **示例** |
 | :--- | :--- | :--- |
-| date | alertlog-yyymmdd | alertlog-20170916 |
+| date | yyyy-mm-dd | 2017-09-16 |
 
 ## 接口数据
 
