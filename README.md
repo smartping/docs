@@ -11,11 +11,11 @@ SmartPing是一个综合性网络质量\(PING\)检测工具，支持正/反向PI
 
 ## 设计思路
 
-本系统的定位为小型工具，即使组成互Ping网络可以遵守无中心化原则，所有的数据均存储自身节点中，每个节点提供出方向的数据，从任意节点查询数据均会通过Ajax请求关联节点的API接口获取并组装全部数据。
+本系统的定位为轻量级工具，即使组多点成互Ping网络可以遵守无中心化原则，所有的数据均存储自身节点中，每个节点提供出方向的数据，从任意节点查询数据均会通过Ajax请求关联节点的API接口获取并组装全部数据。
 
-* 数据[去中心化](https://docs.smartping.org/arch/decentralized.html)
+* 数据去中心化
 * 集中配置文件管理
-* 存储[数据结构](https://docs.smartping.org/arch/data.html)
+* 存储数据结构
 
 ## 功能截图
 
@@ -26,6 +26,4 @@ Ping拓扑及报警![](/assets/topology.jpg)![](/assets/alert.jpg)延迟地图![
 检测工具![](/assets/tools.jpg)
 
 系统配置![](/assets/config.jpg)
-
-
 
