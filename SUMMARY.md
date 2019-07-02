@@ -14,5 +14,6 @@
 * [设计思路](arch/README.md)
   * [数据去中心化](arch/decentralized.md)
   * [存储数据结构](arch/data.md)
+  * [cloud](arch/cloud.md)
 * [更新记录](geng-xin-ji-lu.md)
 
