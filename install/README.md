@@ -4,10 +4,10 @@
 
 ### 选择相应OS的二进制包（最新版本v0.8.0）
 
-* Linux： [Github](https://github.com/smartping/smartping/releases/download/v0.8.0/smartping-v0.8.0.tar.gz) [百度云](https://pan.baidu.com/s/1VeBV9498NKqFfTdq6xIYhA)\(提取码:gbcg\)
-* Windows：[Github](https://github.com/smartping/smartping/releases/download/v0.8.0/smartping-v0.8.0.zip) [百度云](https://pan.baidu.com/s/1VeBV9498NKqFfTdq6xIYhA)\(提取码:gbcg\)
+* Linux： [Github](https://github.com/smartping/smartping/releases/download/v0.8.0/smartping-v0.8.0.tar.gz) [百度云](https://pan.baidu.com/s/11FNUTNebrEzpa34UYjHUew)\(提取码:gbcg\)
+* Windows：[Github](https://github.com/smartping/smartping/releases/download/v0.8.0/smartping-v0.8.0.zip) [百度云](https://pan.baidu.com/s/11FNUTNebrEzpa34UYjHUew)\(提取码:gbcg\)
 
-All Release：[Github](https://github.com/gy-games/smartping/releases) [百度云](https://pan.baidu.com/s/1VeBV9498NKqFfTdq6xIYhA)\(提取码:gbcg\)
+All Release：[Github](https://github.com/gy-games/smartping/releases) [百度云](https://pan.baidu.com/s/11FNUTNebrEzpa34UYjHUew)\(提取码:gbcg\)
 
 ### 解压并运行程序
 
